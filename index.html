@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="formularz">
+        <form action="https://formspree.io/rafalkastory@gmail.com"
+      method="POST">
+            <label for="name">Imię:</label>
+            <input type="text" name="name" id="name"><br>
+            <p></p>
+            <label for="surname">Nazwisko:</label>
+            <input type="text" name="surname" id="surname"><br>
+            <p></p>
+            <label for="name">e-mail:</label>
+            <input type="email" name="email">
+            <p></p>
+            <label for="name">telefon:</label>
+            <input type="tel" name="tel"><br>
+            <p></p>
+            <label for="name">miasto:</label>
+            <input type="checkbox" name="miasto1" value="Krakow">Kraków
+            <input type="checkbox" name="miasto2" value="Warszawa">Warszawa
+            <input type="checkbox" name="miasto3" value="Gdansk">Gdańsk<br>
+            <p></p>        
+            <label for="name">płeć:</label>
+            <input type="radio" name="gender" value="male" checked>mężczyzna
+            <input type="radio" name="gender" value="female">kobieta
+            <input type="radio" name="gender" value="other">inne<br>
+            <p></p>
+            <label><input type="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br>
+            <p></p>            
+            <label for="msg">Wiadomość:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="wyślij">
+        </form>
+    </div>
+</body>
+
+</html>
